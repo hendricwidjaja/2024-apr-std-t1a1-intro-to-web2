@@ -1,0 +1,48 @@
+/* Applying the asterix with 0 margin and padding, we can adjust margin and padding individually for each element */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+    background-color: gold;
+}
+
+h2{
+    color: red;
+    background-color: yellowgreen;
+}
+
+/* Only applies the font size to article
+article > p {
+    font-size: 20px;
+} */
+
+.article_p {
+    font-size: 1.5rem;
+}
+
+#footer_p {
+    color: red;
+    font-size: 10px;
+}
+
+ul {
+    background-color: aqua;
+}
+
+li {
+    color: red;
+    background-color: yellow;
+}
+
+li:nth-child(2n) {
+    color: red;
+    background-color: beige;
+}
+
+/* since 2x images, it applies to both images */
+img {
+    max-width: 100vw;
+}
